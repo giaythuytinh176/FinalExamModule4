@@ -1,19 +1,19 @@
 <div class="container">
-  <h3>Create Book</h3>
+  <h3><strong>Create Book</strong></h3>
   <form (ngSubmit)="onSubmit()">
     <div class="form-group">
-      <label for="title">Title</label>
+      <label for="title"><strong>Title</strong></label>
       <input type="text" class="form-control" id="title" required [(ngModel)]="book.title" name="title">
     </div>
 
     <div class="form-group">
-      <label for="author">Author</label>
+      <label for="author"><strong>Author</strong></label>
       <input type="text" class="form-control" id="author" required [(ngModel)]="book.author" name="author">
     </div>
 
 
     <div class="form-group">
-      <label for="description">Description</label>
+      <label for="description"><strong>Description</strong></label>
       <textarea rows="10" class="form-control" id="description" required [(ngModel)]="book.description"
                 name="description"></textarea>
     </div>
