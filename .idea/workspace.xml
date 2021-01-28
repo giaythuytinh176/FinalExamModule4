@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-exam-server" beforeDir="false" afterPath="$PROJECT_DIR$/angular-exam-server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/component/book-create/book-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/component/book-create/book-create.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/component/book-create/book-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/component/book-create/book-create.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/component/book-edit/book-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/component/book-edit/book-edit.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611793013314</updated>
       <workItem from="1611793014285" duration="54000" />
-      <workItem from="1611796879107" duration="4846000" />
+      <workItem from="1611796879107" duration="5055000" />
     </task>
     <servers />
   </component>
