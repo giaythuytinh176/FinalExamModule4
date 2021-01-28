@@ -1,0 +1,16 @@
+<div mat-dialog-content>
+  <p>Do you want to delete {{ data.title }}?</p>
+  <div>
+    <label><b>Tên sách: </b></label> {{data.title}}
+  </div>
+  <div>
+    <label><b>Tác giả: </b></label> {{data.author}}
+  </div>
+  <div>
+    <label><b>Mô tả: </b></label> {{data.description}}
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="data.id" cdkFocusInitial>Ok</button>
+</div>

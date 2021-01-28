@@ -25,7 +25,8 @@
       <td>{{ book.author }}</td>
       <td>
         <a [routerLink]="['/update/', book.id]" class="btn btn-primary">Sửa</a> &nbsp;
-        <button (click)="deleteBook(book.id)" class="btn btn-danger">Xoá</button>
+<!--        <button (click)="deleteBook(book.id)" class="btn btn-danger">Xoá</button>-->
+        <button mat-raised-button color="warn" (click)="openDialog(book.id, book.title, book.author, book.description)">Xoá</button>
       </td>
     </tr>
     </tbody>
