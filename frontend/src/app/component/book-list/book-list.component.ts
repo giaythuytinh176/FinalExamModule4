@@ -54,7 +54,7 @@ export class BookListComponent implements OnInit {
   // tslint:disable-next-line:typedef
   openDialog(id: number, title: string, author: string, description: string): void {
     const dialogRef = this.dialog.open(DialogContentExampleDialog, {
-      width: '250px',
+      width: '400px',
       data: {id: id, title: title, author: author, description: description}
     });
 

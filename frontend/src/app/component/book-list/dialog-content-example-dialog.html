@@ -1,5 +1,5 @@
-<div mat-dialog-content>
-  <p>Do you want to delete {{ data.title }}?</p>
+<div mat-dialog-content class="mat-typography">
+  <p>Do you want to delete <strong>{{ data.title }}</strong>?</p>
   <div>
     <label><b>Tên sách: </b></label> {{data.title}}
   </div>
@@ -7,7 +7,7 @@
     <label><b>Tác giả: </b></label> {{data.author}}
   </div>
   <div>
-    <label><b>Mô tả: </b></label> {{ data.description.substring(0, 50)}}...
+    <label><b>Mô tả: </b></label> {{ data.description.substring(0, 100)}}...
   </div>
 </div>
 <div mat-dialog-actions>
