@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="08c42bf4-3ebc-45c0-92a1-2e3b853a0054" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/angular-exam-server" beforeDir="false" afterPath="$PROJECT_DIR$/angular-exam-server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/component/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/component/book-list/book-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/component/book-list/dialog-content-example-dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/component/book-list/dialog-content-example-dialog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611793013314</updated>
       <workItem from="1611793014285" duration="54000" />
-      <workItem from="1611796879107" duration="7393000" />
+      <workItem from="1611796879107" duration="7462000" />
     </task>
     <servers />
   </component>
