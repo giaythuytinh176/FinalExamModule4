@@ -55,7 +55,7 @@ export class BookListComponent implements OnInit {
   openDialog(id: number, title: string, author: string, description: string): void {
     const dialogRef = this.dialog.open(DialogContentExampleDialog, {
       width: '250px',
-      data: {name: id, title: title, author: author, description: description}
+      data: {id: id, title: title, author: author, description: description}
     });
 
     dialogRef.afterClosed().subscribe(result => {

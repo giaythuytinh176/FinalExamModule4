@@ -7,7 +7,7 @@
     <label><b>Tác giả: </b></label> {{data.author}}
   </div>
   <div>
-    <label><b>Mô tả: </b></label> {{data.description}}
+    <label><b>Mô tả: </b></label> {{ data.description.substring(0, 50)}}...
   </div>
 </div>
 <div mat-dialog-actions>
