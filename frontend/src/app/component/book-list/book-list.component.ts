@@ -4,7 +4,7 @@ import {Observable} from 'rxjs';
 import {ToastrService} from 'ngx-toastr';
 import {Router} from '@angular/router';
 import {BookService} from '../../service/book.service';
-import {MAT_DIALOG_DATA, MatDialog, MatDialogRef} from "@angular/material/dialog";
+import {MAT_DIALOG_DATA, MatDialog, MatDialogRef} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-book-list',
@@ -55,7 +55,7 @@ export class BookListComponent implements OnInit {
   openDialog(id: number, title: string, author: string, description: string): void {
     const dialogRef = this.dialog.open(DialogContentExampleDialog, {
       width: '400px',
-      data: {id: id, title: title, author: author, description: description}
+      data: {id, title, author, description}
     });
 
     dialogRef.afterClosed().subscribe(result => {
