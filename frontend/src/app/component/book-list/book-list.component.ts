@@ -72,7 +72,24 @@ export class BookListComponent implements OnInit {
 @Component({
   // tslint:disable-next-line:component-selector
   selector: 'dialog-content-example-dialog',
-  templateUrl: 'dialog-content-example-dialog.html',
+  template: `
+    <div mat-dialog-content class="mat-typography">
+      <p>Do you want to delete <strong>{{ data.title }}</strong>?</p>
+      <div>
+        <label><b>Tên sách: </b></label> {{data.title}}
+      </div>
+      <div>
+        <label><b>Tác giả: </b></label> {{data.author}}
+      </div>
+      <div>
+        <label><b>Mô tả: </b></label> {{ data.description.substring(0, 100)}}...
+      </div>
+    </div>
+    <div mat-dialog-actions>
+      <button mat-raised-button color="warn" [mat-dialog-close]="data.id" cdkFocusInitial>Xoá sách</button>
+      <button mat-stroked-button color="basic" (click)="onNoClick()">Thoát</button>
+    </div>
+  `,
 })
 // tslint:disable-next-line:component-class-suffix
 export class DialogContentExampleDialog {
