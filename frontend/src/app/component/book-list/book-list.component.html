@@ -1,0 +1,33 @@
+<div class="table-responsive">
+  <table class="table table-bordered" width="100%" cellspacing="0">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Tên sách</th>
+      <th>Tác giả</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+      <th>#</th>
+      <th>Tên sách</th>
+      <th>Tác giả</th>
+      <th>Action</th>
+    </tr>
+    </tfoot>
+    <tbody>
+    <tr *ngFor="let book of (books | async) ; let i = index">
+      <td>{{ i + 1 }}</td>
+      <td>
+        <button (click)="bookDetails(book.id)" class="btn btn-info" style="margin-left: 10px">{{ book.title }}</button>
+      </td>
+      <td>{{ book.author }}</td>
+      <td>
+        <a [routerLink]="['/update/', book.id]" class="btn btn-primary">Sửa</a> &nbsp;
+        <button (click)="deleteBook(book.id)" class="btn btn-danger">Xoá</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

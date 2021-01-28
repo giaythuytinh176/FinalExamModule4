@@ -1,0 +1,22 @@
+<div class="container">
+  <h3>Chỉnh sửa sách</h3>
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="title">Tên sách</label>
+        <input type="text" class="form-control" id="title" required [(ngModel)]="book.title" name="title">
+      </div>
+
+      <div class="form-group">
+        <label for="author">Tác giả</label>
+        <input type="text" class="form-control" id="author" required [(ngModel)]="book.author" name="author">
+      </div>
+
+      <div class="form-group">
+        <label for="description">Mô tả</label>
+        <textarea rows="10" class="form-control" id="description" required [(ngModel)]="book.description" name="description"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+
+</div>

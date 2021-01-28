@@ -1,0 +1,18 @@
+<h2>Chi tiết sách</h2>
+
+<hr/>
+<div *ngIf="book">
+  <div>
+    <label><b>Tên sách: </b></label> {{book.title}}
+  </div>
+  <div>
+    <label><b>Tác giả: </b></label> {{book.author}}
+  </div>
+  <div>
+    <label><b>Mô tả: </b></label> {{book.description}}
+  </div>
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Xem danh sách</button><br>
